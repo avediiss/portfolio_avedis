@@ -1,0 +1,49 @@
+h2 {
+    @apply text-primary text-3xl
+}
+
+h3 {
+    @apply text-primary text-2xl font-regular mb-2;
+}
+
+.i-contact {
+    color: #fe5b2c;
+    position: absolute;
+    left: 50px;
+    width: 18px;
+    text-align: center;
+}
+
+.i-social {
+    color: #fe5b2c;
+
+    text-align: center;
+}
+
+
+a{
+    @apply text-secondary hover:text-accent cursor-pointer;
+}
+
+.a-header{
+    @apply text-[16px]  text-white transition;
+}
+
+
+span {
+    @apply text-secondary;
+}
+
+ul{
+    @apply list-none m-0 px-8;
+}
+
+li{
+    @apply py-4;
+}
+
+.sub{
+    @apply bg-primary hover:bg-accent text-white rounded-[28px] px-6 py-2
+}
+
+
