@@ -1,0 +1,184 @@
+.header {
+    @apply relative bg-primary;
+}
+
+.header__topbar {
+    @apply bg-accent hidden lg:block;
+}
+
+.header__topbar-container {
+    @apply main-container;
+}
+
+.header__topbar-content {
+    @apply h-[50px] flex items-center justify-between;
+}
+
+.header__topbar-list {
+    @apply flex gap-6 text-white text-[16px];
+}
+
+.header__topbar-item {
+    @apply flex items-center gap-2 border-r border-white/30 pr-6;
+}
+
+.header__topbar-link {
+    @apply hover:underline text-white hover:text-secondary;
+}
+
+.header__topbar-socials {
+    @apply flex gap-6 text-white;
+}
+
+.header__nav {
+    @apply main-container flex items-center justify-between py-6;
+}
+
+.header__logo {
+    @apply w-28;
+}
+
+.header__mobile-menu-button {
+    @apply lg:hidden text-white;
+}
+
+.header__mobile-menu-icon {
+    @apply w-8 h-8;
+}
+
+.header__nav-links {
+    @apply fixed inset-y-0 left-0 w-full bg-primary transform transition-transform duration-300 lg:static lg:flex lg:translate-x-0 lg:bg-transparent lg:w-auto;
+}
+
+
+.header__nav-links--closed {
+    @apply -translate-x-full ;
+}
+
+.header__close-button {
+    @apply absolute top-4 right-4 lg:hidden;
+}
+
+.header__close-icon {
+    @apply w-8 h-8 text-white;
+}
+
+.header__mobile-logo {
+    @apply flex lg:hidden p-6;
+}
+
+.header__nav-items {
+    @apply flex flex-col gap-6 p-8 lg:flex-row lg:p-0;
+}
+
+.header__nav-link {
+    @apply a-header;
+}
+
+.header__desktop-sidebar {
+    @apply hidden lg:flex gap-4;
+}
+
+.header__sidebar-button {
+    @apply text-primary;
+}
+
+.header__sidebar-icon {
+    @apply w-8 h-8;
+}
+
+.header__sidebar-overlay {
+    @apply fixed inset-0 bg-black bg-opacity-50 z-40;
+}
+
+.header__sidebar {
+    @apply fixed inset-y-0 right-0 w-[500px] py-2 bg-white transform transition-transform duration-300 ease-in-out shadow-lg z-50 overflow-y-auto;
+}
+
+.header__sidebar--open {
+    @apply translate-x-0;
+}
+
+.header__sidebar--closed {
+    @apply translate-x-full;
+}
+
+.header__sidebar-close-button {
+    @apply sticky top-4 right-4 pr-3 flex justify-end z-10;
+}
+
+.header__sidebar-close-icon {
+    @apply w-8 h-8 cursor-pointer;
+}
+
+.header__sidebar-content {
+    @apply flex flex-col gap-8 p-[70px] pt-[20px] px-[50px] pb-[20px];
+}
+
+.header__sidebar-logo {
+    @apply w-36 mb-6;
+}
+
+.header__sidebar-title {
+    @apply block py-2;
+}
+
+.header__sidebar-contact {
+    @apply block py-2;
+}
+
+.header__sidebar-contact-list {
+    @apply list-none;
+}
+
+.header__sidebar-contact-item {
+    @apply flex items-center gap-2;
+}
+
+.header__sidebar-contact-icon {
+    @apply i-contact;
+}
+
+.header__sidebar-newsletter {
+    @apply block py-6;
+}
+
+.header__sidebar-newsletter-form {
+    @apply relative w-full max-w-md flex items-center;
+}
+
+.header__sidebar-newsletter-input {
+    @apply w-full border border-primary rounded-[20px] h-[60px] px-4 focus:outline-none focus:ring-2 focus:ring-primary pr-16;
+}
+
+.header__sidebar-newsletter-button {
+    @apply absolute right-4 top-1/2 transform -translate-y-1/2 bg-primary text-white py-2 pl-6 pr-6 rounded-full flex items-center space-x-2 hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent transition;
+}
+
+.header__sidebar-newsletter-arrow {
+    @apply relative w-6 h-6;
+}
+
+.header__sidebar-newsletter-arrow-icon {
+    @apply absolute left-[50%] transform -translate-x-1/2 bottom-[7px];
+}
+
+.header__sidebar-newsletter-text {
+    @apply text-secondary text-[18px] text-start;
+}
+
+.header__sidebar-socials {
+    @apply block py-6;
+}
+
+.header__sidebar-socials-list {
+    @apply flex flex-wrap gap-3;
+}
+
+.header__sidebar-social-link {
+    @apply rounded-[50%] border p-3 w-12 h-12 flex items-center justify-center border-secondary text-secondary hover:border-accent transition duration-300 ease-in-out  hover:scale-110 hover:shadow-lg;
+}
+
+.header__sidebar-social-icon {
+    @apply group-hover:text-accent transition duration-300 ease-in-out;
+}

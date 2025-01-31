@@ -1,0 +1,23 @@
+.metrics {
+    @apply bg-alter py-16 md:py-24;
+}
+
+.metrics__container {
+    @apply main-container;
+}
+
+.metrics__grid {
+    @apply grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-x-8 md:gap-x-16 gap-y-10 items-center text-center bg-alter text-gray px-6;
+}
+
+.metrics__item {
+    @apply w-full;
+}
+
+.metrics__number {
+    @apply text-[40px] sm:text-[50px] md:text-[60px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200;
+}
+
+.metrics__label {
+    @apply text-[16px] sm:text-[18px] md:text-[20px] text-ternary font-semibold font-unna;
+}

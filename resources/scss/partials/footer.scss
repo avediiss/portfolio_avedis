@@ -1,0 +1,103 @@
+.footer {
+    @apply bg-alter text-ternary;
+}
+
+.footer__top {
+    @apply py-[90px] pb-[50px];
+}
+
+.footer__container {
+    @apply main-container;
+}
+
+.footer__newsletter {
+    @apply mb-[76px] flex flex-wrap justify-between items-center gap-8;
+}
+
+.footer__newsletter-heading {
+    @apply text-white text-[53px] font-regular;
+}
+
+.footer__newsletter-form {
+    @apply relative w-full max-w-md flex items-center;
+}
+
+.footer__newsletter-input {
+    @apply w-full border border-primary rounded-[20px] h-[60px] px-4 focus:outline-none focus:ring-2 focus:ring-primary pr-16;
+}
+
+.footer__newsletter-button {
+    @apply absolute right-4 top-1/2 transform -translate-y-1/2 bg-primary text-white py-2 px-6 rounded-full flex items-center space-x-2 hover:bg-accent focus:outline-none focus:ring-2 focus:ring-accent transition;
+}
+
+.footer__newsletter-arrow {
+    @apply relative w-6 h-6;
+}
+
+.footer__newsletter-arrow-icon {
+    @apply absolute left-[50%] transform -translate-x-1/2 bottom-[7px];
+}
+
+.footer__grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8;
+}
+
+.footer__logo {
+    @apply mt-[5px] max-w-full h-auto;
+}
+
+.footer__contact {
+    @apply m-0 mt-2;
+}
+
+.footer__contact-link {
+    @apply hover:text-accent;
+}
+
+.footer__section-title {
+    @apply text-white text-sm;
+}
+
+.footer__section-list {
+    @apply p-0 m-0 list-none;
+}
+
+.footer__section-item {
+    @apply hover:text-accent;
+}
+
+.footer__bottom {
+    @apply bg-primary;
+}
+
+.footer__bottom-container {
+    @apply main-container;
+}
+
+.footer__bottom-content {
+    @apply flex flex-col lg:flex-row justify-between items-center py-6;
+}
+
+.footer__socials {
+    @apply flex flex-wrap gap-4 mb-4 lg:mb-0;
+}
+
+.footer__social-link {
+    @apply rounded-full border p-3 w-12 h-12 flex items-center justify-center border-secondary text-secondary hover:border-accent hover:scale-110 transition;
+}
+
+.footer__social-icon {
+    @apply hover:text-accent;
+}
+
+.footer__copyright {
+    @apply text-center mb-4 lg:mb-0 hover:text-accent cursor-pointer py-4;
+}
+
+.footer__policy {
+    @apply flex justify-center m-0 p-0 list-none;
+}
+
+.footer__policy-link {
+    @apply hover:text-accent;
+}

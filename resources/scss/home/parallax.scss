@@ -1,0 +1,15 @@
+.parallax {
+    @apply bg-primary block;
+}
+
+.parallax__container {
+    @apply flex w-full h-[600px] bg-cover bg-center bg-no-repeat bg-fixed;
+}
+
+.parallax__content {
+    @apply main-container  flex justify-end items-end text-right w-full;
+}
+
+.parallax__heading {
+    @apply text-white font-regular mb-12;
+}

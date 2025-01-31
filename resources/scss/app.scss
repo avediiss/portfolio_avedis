@@ -5,9 +5,18 @@
 
 @import "./menu.scss";
 @import "./components.scss";
+@import "partials/header";
+@import "partials/footer";
+@import "home/about";
+@import "home/metrics";
+@import "home/parallax";
+@import "home/services";
+@import "home/investments";
+@import "home/casestudy";
+@import "home/contact";
+@import "./cta.scss";
 
 @import '@fortawesome/fontawesome-free/css/all.min.css';
-
 
 
 @keyframes text-slide-5 {

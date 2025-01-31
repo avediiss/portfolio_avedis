@@ -1,0 +1,44 @@
+.contact {
+    @apply bg-primary main-container;
+}
+
+.contact__background {
+    @apply w-full h-full bg-cover bg-center bg-no-repeat rounded-[30px] md:rounded-[50px] py-[50px] md:py-[80px] lg:py-[100px] px-6 sm:px-10 md:px-[100px] lg:px-[180px] relative;
+}
+
+.contact__image {
+    @apply absolute top-1/2 right-6 sm:right-10 md:right-[100px] lg:right-[180px] transform -translate-y-1/2 hidden md:block;
+}
+
+.contact__image img {
+    @apply border-0 max-w-full h-auto w-[80px] sm:w-[100px] md:w-[120px] lg:w-[140px];
+}
+
+.contact__content {
+    @apply relative z-10 max-w-[650px] text-center md:text-left;
+}
+
+.contact__heading {
+    @apply mb-6 text-white text-[24px] sm:text-[26px] md:text-[30px] leading-[1.4];
+}
+
+.contact__button {
+    @apply  border-0 rounded-full py-3 px-5 md:py-4 md:px-6 leading-6 inline-flex items-center justify-center gap-2.5 outline-none transition-all duration-300 ease-in-out text-white bg-primary hover:bg-white hover:text-primary;
+}
+
+.contact__button-text {
+    @apply text-white group-hover:text-primary;
+}
+
+.contact__button-icon {
+    @apply relative w-6 h-6;
+}
+
+.contact__button-icon svg {
+    @apply transition-all duration-300 group-hover:translate-x-1;
+}
+
+.contact__spacer {
+    @apply h-[60px] lg:h-[90px];
+}
+

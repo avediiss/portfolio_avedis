@@ -1,0 +1,79 @@
+.services {
+    @apply relative bg-primary py-12 md:py-24;
+}
+
+.services__container {
+    @apply main-container relative z-[2] px-4;
+}
+
+.services__header {
+    @apply flex flex-col md:flex-row justify-between items-start md:items-center;
+}
+
+.services__header-content {
+    @apply max-w-full md:max-w-[57%] block;
+}
+
+.services__subtitle {
+    @apply relative mb-5 md:mb-[20px] text-ternary text-lg md:text-[20px] mt-0 pl-4;
+}
+
+.services__subtitle::before {
+    @apply content-[''] absolute left-0 top-[15px] transform -translate-y-1/2 w-2 h-2 bg-accent;
+}
+
+.services__title {
+    @apply font-regular text-3xl md:text-5xl mb-0 text-white;
+}
+
+.services__button {
+    @apply  border-0 rounded-full py-3 px-5 md:py-4 md:px-6 leading-6 inline-flex items-center justify-center gap-2.5 outline-none transition-all duration-300 ease-in-out bg-ternary hover:bg-accent hover:text-white;
+}
+
+.services__button-text {
+    @apply text-white group-hover:text-white;
+}
+
+.services__button-icon {
+    @apply relative w-6 h-6;
+}
+
+.services__button-icon svg {
+    @apply absolute left-1/2 transform -translate-x-1/2 bottom-[6px] group-hover:left-[calc(50%-2px)] transition-all duration-300;
+}
+
+.services__spacer {
+    @apply h-[85px] lg:h-[50px];
+}
+
+.services__grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+.services__item {
+    @apply col-span-1;
+}
+
+.services__item--offset-2 {
+    @apply md:pt-[40px];
+}
+
+.services__item--offset-3 {
+    @apply lg:pt-[80px];
+}
+
+.services__image-container {
+    @apply mb-6 md:mb-[30px] relative overflow-hidden;
+}
+
+.services__image {
+    @apply w-full h-auto;
+}
+
+.services__item-title {
+    @apply mb-3 md:mb-[12px] font-regular text-white text-2xl md:text-[30px];
+}
+
+.services__item-description {
+    @apply mb-4 md:mb-[24px] mt-0 text-secondary;
+}

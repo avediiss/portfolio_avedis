@@ -1,0 +1,79 @@
+.about {
+    @apply py-16 px-6 bg-alter;
+}
+
+.about__grid {
+    @apply max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12;
+}
+
+.about__block {
+    @apply space-y-4;
+}
+
+.about__title {
+    @apply relative text-lg font-semibold text-white pl-6;
+}
+
+.about__title-accent {
+    @apply absolute left-0 top-1/2 w-4 h-[2px] bg-accent;
+}
+
+.about__description {
+    @apply text-lg font-medium text-white;
+}
+//--------------------------------------------------------------------------//
+.who {
+    @apply relative bg-alter pt-20;
+}
+
+.who__container {
+    @apply main-container;
+}
+
+.who__grid {
+    @apply flex flex-wrap items-center;
+}
+
+.who__image-container {
+    @apply w-full md:w-1/2;
+}
+
+.who__image {
+    @apply max-w-full h-auto;
+}
+
+.who__content-container {
+    @apply w-full md:w-1/2;
+}
+
+.who__title {
+    @apply relative mb-5 text-ternary text-lg pl-4;
+}
+
+.who__title::before {
+    @apply content-[''] absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 bg-accent;
+}
+
+.who__heading {
+    @apply text-white text-5xl font-bold leading-tight;
+}
+
+.who__description {
+    @apply text-ternary text-lg leading-relaxed;
+}
+
+.who__list {
+    @apply space-y-4;
+}
+
+.who__list-item {
+    @apply flex items-start space-x-4;
+}
+
+.who__list-icon {
+    @apply text-accent;
+}
+
+.who__list-text {
+    @apply text-white font-medium text-xl;
+}

@@ -1,0 +1,63 @@
+.case-study {
+    @apply bg-primary;
+}
+
+.case-study__spacer {
+    @apply h-[50px] lg:h-[75px];
+}
+
+.case-study__container {
+    @apply main-container;
+}
+
+.case-study__header {
+    @apply text-center;
+}
+
+.case-study__subtitle {
+    @apply mb-6 text-ternary text-lg md:text-xl relative inline-block pl-4;
+}
+
+.case-study__subtitle::before {
+    @apply content-[''] absolute left-0 top-1/2 -translate-y-1/2 w-2 h-2 bg-accent;
+}
+
+.case-study__title {
+    @apply text-white font-semibold text-3xl md:text-5xl leading-tight;
+}
+
+.case-study__grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 h-full;
+}
+
+.case-study__item {
+    @apply  relative h-full;
+}
+
+.case-study__item--large {
+    @apply col-span-1 md:col-span-2 lg:col-span-2 row-span-2 lg:row-span-4;
+}
+
+.case-study__item--medium {
+    @apply row-span-1 md:row-span-2;
+}
+
+.case-study__item--small {
+    @apply col-span-1 md:col-span-2 row-span-1;
+}
+
+.case-study__image {
+    @apply h-full w-full object-cover group-hover:opacity-20 transition-all duration-300;
+}
+
+.case-study__overlay {
+    @apply absolute inset-0 z-10 p-6 flex flex-col items-start justify-end bg-gradient-to-b from-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300;
+}
+
+.case-study__overlay-title {
+    @apply text-[24px] lg:text-[30px] text-white font-regular mb-2;
+}
+
+.case-study__overlay-link {
+    @apply text-white hover:text-accent cursor-pointer;
+}

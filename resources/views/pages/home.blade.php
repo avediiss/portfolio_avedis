@@ -7,7 +7,8 @@
 
         @include('components.hero')
         @include('components.about')
-        @include('components.counter')
+        @include('components.who')
+        @include('components.metrics')
         @include('components.parallax')
         @include('components.services')
         @include('components.investments')
