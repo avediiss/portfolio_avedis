@@ -1,8 +1,40 @@
-<header class="relative bg-primary main-container">
-    <nav class=" flex items-center justify-between py-8 " x-data="{ open: false, openSide: false }"
+<header class="relative bg-primary">
+
+    <div class="bg-accent hidden lg:block  ">
+        <div class="main-container">
+            <div class="h-[50px] flex relative items-center justify-between">
+                <div class="block">
+                    <ul class="flex list-none m-0 p-0 gap-6 text-white text-[16px]">
+                        <li class="flex items-center gap-2 border-r border-white/30 pr-6 a-links">
+                            <i class=" fa-solid fa-envelope"></i>
+
+                            info@torossianhrag.com
+                        </li>
+                        <li class="flex items-center gap-2 border-r border-white/30 pr-6 a-links">
+                            <i class=" fa-solid fa-phone "></i>
+                            +33 7 64 00 82 98
+                        </li>
+                        <li class="flex items-center gap-2 a-links">
+                            <i class=" fa-solid fa-location-dot"></i>
+
+                            Lyon, France
+                        </li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <div class="flex gap-6 text-white">
+                        <a class="a-links">Linkedin</a>
+                        <a class="a-links">Instagram</a>
+                        <a class="a-links">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="main-container flex items-center justify-between py-8 " x-data="{ open: false, openSide: false }"
          x-cloak="openSide"
     >
-
         <!-- Logo -->
         <div class="flex-shrink-0">
             <img src="{{ ('asset/images/logo_white.svg') }}" alt="Primary Logo" class="w-28">
@@ -20,7 +52,7 @@
         <!-- Navigation Links -->
         <div
             x-bind:class="open ? 'translate-x-0' : '-translate-x-full'"
-            class="fixed inset-y-0 left-0 w-full py-4 bg-primary transform transition-transform duration-300 ease-in-out md:static md:flex md:translate-x-0 md:items-center md:gap-8 md:bg-transparent md:w-auto md:py-0 md:px-0 shadow-lg lg:shadow-none"
+            class="fixed inset-y-0 left-0 w-full py-4 bg-primary transform transition-transform duration-300 ease-in-out lg:static lg:flex lg:translate-x-0 lg:items-center lg:gap-8 lg:bg-transparent lg:w-auto lg:py-0 lg:px-0 shadow-lg lg:shadow-none"
         >
             <!-- Close Button (X) -->
             <svg x-show="open" @click="open = !open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -29,15 +61,17 @@
             </svg>
 
             <!-- Logo on Mobile View -->
-            <div class="flex md:hidden p-6">
+            <div class="flex lg:hidden p-6">
                 <img src="{{ ('asset/images/logo_white.svg') }}" alt="Primary Logo" class="w-28">
+
             </div>
 
             <!-- Links -->
-            <div class="flex flex-col gap-8 p-8 md:flex-row md:p-0">
+            <div class="flex flex-col gap-12 p-8 lg:flex-row lg:p-0">
                 <a class="a-header" href="#">Home</a>
                 <a class="a-header" href="#">About</a>
-                <a class="a-header" href="#">Projects</a>
+                <a class="a-header" href="#">Services</a>
+                <a class="a-header" href="#">Case Study</a>
                 <a class="a-header" href="#">Blogs</a>
                 <a class="a-header" href="#">Contact</a>
             </div>
@@ -46,7 +80,7 @@
 
 
         <!-- Desktop Side Bar -->
-        <div class="hidden md:flex gap-4">
+        <div class="hidden lg:flex gap-4">
             <button @click="openSide = !openSide" class="text-primary">
                 <div class="w-6 h-6 relative">
                     <svg x-show="!openSide" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="#fff">
@@ -91,19 +125,19 @@
                             <li>
                                 <i class="i-contact fa-solid fa-phone "></i>
                                 <span>
-                                    <a href="#">+961 12 345 678</a>
+                                    <a href="#">+33 7 64 00 82 98</a>
                                 </span>
                             </li>
                             <li>
                                 <i class="i-contact fa-solid fa-envelope"></i>
                                 <span>
-                                    <a href="mailto:info@domain.com">info@domain.com</a>
+                                    <a href="mailto:info@domain.com">info@torossianhrag.com</a>
                                 </span>
                             </li>
                             <li>
                                 <i class="i-contact fa-solid fa-location-dot"></i>
                                 <span>
-                                    50 Lorem Street, 1203, Beirut, Lebanon
+                                    Lyon, France
                                 </span>
                             </li>
 

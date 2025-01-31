@@ -29,6 +29,9 @@ a{
     @apply text-[16px]  text-white transition;
 }
 
+.a-links{
+    @apply text-[14px]  text-white transition font-roboto font-regular  hover:text-primary cursor-pointer;
+}
 
 span {
     @apply text-secondary;
@@ -39,7 +42,7 @@ ul{
 }
 
 li{
-    @apply py-4;
+    @apply py-2;
 }
 
 .sub{

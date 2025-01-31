@@ -13,6 +13,7 @@ export default {
         extend: {
             fontFamily: {
                 unna: ['Unna', 'serif'],
+                roboto: ['Roboto', 'serif'],
             },
             fontWeight: {
                 regular: '400',
@@ -26,15 +27,15 @@ export default {
                 secondary: '#67797e',
                 ternary: '#88a5ad',
                 accent: '#fe5b2c',
+                alter: '#13282f',
                 gray: '#f7f7f7',
                 border: '#dddddd',
-
             },
+
         },
     },
     plugins: [],
 };
-
 
 
 

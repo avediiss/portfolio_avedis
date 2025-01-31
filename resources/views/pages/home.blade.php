@@ -6,7 +6,14 @@
 @section('content')
 
         @include('components.hero')
-        @include('components.banner')
+        @include('components.about')
+        @include('components.counter')
+        @include('components.parallax')
+        @include('components.services')
+        @include('components.investments')
+        @include('components.casestudy')
+        @include('components.contact')
+
 
 @endsection
 
