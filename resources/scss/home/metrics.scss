@@ -15,9 +15,9 @@
 }
 
 .metrics__number {
-    @apply text-[40px] sm:text-[50px] md:text-[60px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200;
+    @apply text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200;
 }
 
 .metrics__label {
-    @apply text-[16px] sm:text-[18px] md:text-[20px] text-ternary font-semibold font-unna;
+    @apply text-base sm:text-lg md:text-xl text-ternary font-semibold font-unna;
 }

@@ -26,13 +26,11 @@
                 <!-- Logo and Contact -->
                 <div>
                     <img src="{{ ('asset/images/logo_white.svg') }}" alt="Primary Logo" class="footer__logo">
-                    <p class="footer__contact">Lyon, France</p>
-                    <h3 class="footer__contact">
-                        <a href="tel:+33764008298" class="footer__contact-link">+33 7 64 00 82 98</a>
-                    </h3>
-                    <p class="footer__contact">
-                        <a href="mailto:info@torossianhrag.com" class="footer__contact-link">info@torossianhrag.com</a>
-                    </p>
+                    <ul class="footer__section-list">
+                        <li><a href="#" class="footer__section-item">Lyon, France</a></li>
+                        <li><a href="tel:+33764008298" class="footer__contact-link">+33 7 64 00 82 98</a></li>
+                       <li><a href="mailto:info@torossianhrag.com" class="footer__contact-link">info@torossianhrag.com</a></li>
+                    </ul>
                 </div>
 
                 <!-- Useful Links -->

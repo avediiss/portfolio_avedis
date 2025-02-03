@@ -26,11 +26,11 @@ a{
 }
 
 .a-header{
-    @apply text-[16px]  text-white transition;
+    @apply text-base text-white transition;
 }
 
 .a-links{
-    @apply text-[14px]  text-white transition font-roboto font-regular  hover:text-primary cursor-pointer;
+    @apply text-sm  text-white transition font-roboto font-regular  hover:text-primary cursor-pointer;
 }
 
 span {

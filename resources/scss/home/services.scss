@@ -11,15 +11,15 @@
 }
 
 .services__header-content {
-    @apply max-w-full md:max-w-[57%] block;
+    @apply max-w-full md:max-w-[57%];
 }
 
 .services__subtitle {
-    @apply relative mb-5 md:mb-[20px] text-ternary text-lg md:text-[20px] mt-0 pl-4;
+    @apply relative mb-5 md:mb-5 text-ternary text-lg md:text-xl mt-0 pl-4;
 }
 
 .services__subtitle::before {
-    @apply content-[''] absolute left-0 top-[15px] transform -translate-y-1/2 w-2 h-2 bg-accent;
+    @apply content-[''] absolute left-0 top-4 transform -translate-y-1/2 w-2 h-2 bg-accent;
 }
 
 .services__title {
@@ -39,11 +39,11 @@
 }
 
 .services__button-icon svg {
-    @apply absolute left-1/2 transform -translate-x-1/2 bottom-[6px] group-hover:left-[calc(50%-2px)] transition-all duration-300;
+    @apply absolute left-1/2 transform -translate-x-1/2 bottom-1.5 group-hover:left-[calc(50%-2px)] transition-all duration-300;
 }
 
 .services__spacer {
-    @apply h-[85px] lg:h-[50px];
+    @apply h-20 lg:h-12;
 }
 
 .services__grid {
@@ -55,15 +55,15 @@
 }
 
 .services__item--offset-2 {
-    @apply md:pt-[40px];
+    @apply md:pt-10;
 }
 
 .services__item--offset-3 {
-    @apply lg:pt-[80px];
+    @apply lg:pt-20;
 }
 
 .services__image-container {
-    @apply mb-6 md:mb-[30px] relative overflow-hidden;
+    @apply mb-6 md:mb-7 relative overflow-hidden;
 }
 
 .services__image {
@@ -71,9 +71,9 @@
 }
 
 .services__item-title {
-    @apply mb-3 md:mb-[12px] font-regular text-white text-2xl md:text-[30px];
+    @apply mb-3 md:mb-3 font-regular text-white text-2xl md:text-3xl;
 }
 
 .services__item-description {
-    @apply mb-4 md:mb-[24px] mt-0 text-secondary;
+    @apply mb-4 md:mb-6 mt-0 text-secondary;
 }

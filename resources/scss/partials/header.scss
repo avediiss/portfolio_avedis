@@ -15,7 +15,7 @@
 }
 
 .header__topbar-list {
-    @apply flex gap-6 text-white text-[16px];
+    @apply flex gap-6 text-white text-base;
 }
 
 .header__topbar-item {
@@ -120,11 +120,11 @@
 }
 
 .header__sidebar-title {
-    @apply block py-2;
+    @apply  py-2;
 }
 
 .header__sidebar-contact {
-    @apply block py-2;
+    @apply  py-2;
 }
 
 .header__sidebar-contact-list {
@@ -140,7 +140,7 @@
 }
 
 .header__sidebar-newsletter {
-    @apply block py-6;
+    @apply  py-6;
 }
 
 .header__sidebar-newsletter-form {
@@ -164,11 +164,11 @@
 }
 
 .header__sidebar-newsletter-text {
-    @apply text-secondary text-[18px] text-start;
+    @apply text-secondary text-lg text-start;
 }
 
 .header__sidebar-socials {
-    @apply block py-6;
+    @apply  py-6;
 }
 
 .header__sidebar-socials-list {

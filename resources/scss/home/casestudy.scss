@@ -3,7 +3,7 @@
 }
 
 .case-study__spacer {
-    @apply h-[50px] lg:h-[75px];
+    @apply h-12 lg:h-20;
 }
 
 .case-study__container {
@@ -55,7 +55,7 @@
 }
 
 .case-study__overlay-title {
-    @apply text-[24px] lg:text-[30px] text-white font-regular mb-2;
+    @apply text-2xl lg:text-3xl text-white font-regular mb-2;
 }
 
 .case-study__overlay-link {

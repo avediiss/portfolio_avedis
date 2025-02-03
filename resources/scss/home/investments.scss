@@ -7,7 +7,7 @@
 }
 
 .investments__spacer {
-    @apply h-[60px] lg:h-[90px];
+    @apply h-16 lg:h-24;
 }
 
 .investments__container {
@@ -23,7 +23,7 @@
 }
 
 .investments__subtitle {
-    @apply mb-4 text-ternary text-[20px] pl-4 relative;
+    @apply mb-4 text-ternary text-xl pl-4 relative;
 }
 
 .investments__subtitle::before {
@@ -35,7 +35,7 @@
 }
 
 .investments__description {
-    @apply mb-6 text-ternary text-[18px];
+    @apply mb-6 text-ternary text-lg;
 }
 
 .investments__features {
@@ -47,11 +47,11 @@
 }
 
 .investments__feature-icon {
-    @apply w-[100px] h-[100px] flex-none flex items-center justify-center;
+    @apply w-24 h-24 flex-none flex items-center justify-center;
 }
 
 .investments__feature-image {
-    @apply max-w-[100%] h-[60px] object-contain;
+    @apply max-w-full h-16 object-contain;
 }
 
 .investments__feature-content {
